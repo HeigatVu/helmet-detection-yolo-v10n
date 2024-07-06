@@ -1,27 +1,18 @@
-# Helmet Detection With YOLOv10n
+# Helmet Detection with YOLOv10n: Testing & Fine-tuning
 
-Before diving into a full-fledged helmet detecstion project, this repository provides a dedicated space for rigorously testing YOLOv10n in file (object_dectection_with_YOLOv10n.ipynb). Explore different test cases, fine-tune model parameters and gain valuablke insights into the strengths and limitations of YOLOv10n for helmet detection tasks.
+This repository serves as a testing ground for YOLOv10n, a state-of-the-art object detection model, specifically tailored for helmet detection tasks. Before embarking on a full-fledged helmet detection project, this environment allows you to:
+
+- **Rigorously Test YOLOv10n:** Explore diverse test cases to evaluate accuracy, speed, and robustness under varying conditions.
+- **Fine-tune Model Parameters:** Optimize the model for superior performance on helmet detection.
+- **Gain Valuable Insights:** Understand the strengths and limitations of YOLOv10n in this specific context.
 
 ## Key Features
 
-- Testing YOLOv10n
-- Fine-tuning YOLOv10n for helmet detection
+- **YOLOv10n Testing:** Comprehensive evaluation of the model's helmet detection capabilities.
+- **Fine-tuning for Helmet Detection:** Customize YOLOv10n to excel in your specific helmet detection scenarios.
 
 ## Installation
 
-Firstly, we need to clone my source in your local computer
-
-"""
-git clone git@github.com:NiranVu/helmet-detection-yolo-v10n.git
-"""
-
-Then, running file "helmet_detection_yolo_v10.ipynb" in order to download all necessary libs and packages for fine-tuning
-Finally, we can use this model for predicting people, having helmet or not by writing:
-
-"""
-TRAINED_MODEL_PATH ="runs/detection/train/weights/best.pt"
-model = YOLOv10(TRAINED_MODEL_PATH)
-result = model(***)
-"""
-
-In *** we can fill with image, video, link path for model to predict
+1. **Clone the Repository:**
+   ```bash
+   git clone [email address removed]:NiranVu/helmet-detection-yolo-v10n.git
