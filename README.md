@@ -10,14 +10,18 @@ Before diving into a full-fledged helmet detecstion project, this repository pro
 ## Installation
 
 Firstly, we need to clone my source in your local computer
+
 """
 git clone git@github.com:NiranVu/helmet-detection-yolo-v10n.git
 """
+
 Then, running file "helmet_detection_yolo_v10.ipynb" in order to download all necessary libs and packages for fine-tuning
 Finally, we can use this model for predicting people, having helmet or not by writing:
+
 """
 TRAINED_MODEL_PATH ="runs/detection/train/weights/best.pt"
 model = YOLOv10(TRAINED_MODEL_PATH)
 result = model(***)
 """
+
 In *** we can fill with image, video, link path for model to predict
