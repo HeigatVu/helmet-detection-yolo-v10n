@@ -15,4 +15,4 @@ This repository serves as a testing ground for YOLOv10n, a state-of-the-art obje
 
 1. **Clone the Repository:**
    ```bash
-   git@github.com:NiranVu/helmet-detection-yolo-v10n.git
+   git clone git@github.com:NiranVu/helmet-detection-yolo-v10n.git
